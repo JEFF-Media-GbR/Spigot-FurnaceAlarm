@@ -1,0 +1,44 @@
+#########################
+#####  FurnaceAlarm #####
+#########################
+
+# maximum distance until players will receive the furnace alarm
+max-distance: 20
+
+# when set to true, we will only send a message to the nearest player
+# when set to false, we will send a message to all players within max-distance
+# THIS SETTING WILL BE AVAILABLE IN A FUTURE VERSION
+#notify-only-nearest-player: false 
+
+
+#########################
+##### localization ######
+#########################
+
+# Available color codes:
+# &0 Black        &6 Gold       &c Red
+# &1 Dark Blue    &7 Gray       &d Light Purple
+# &2 Dark Green   &8 Dark Gray  &e Yellow
+# &3 Dark Aqua    &9 Blue       &f White
+# &4 Dark Red     &a Green     
+# &5 Dark Purple  &b Aqua
+
+# Available formatting codes:
+# &k Obfuscated   &m Strikethrough
+# &l Bold         &o Italic
+# &n Underline    &r Reset
+
+##### English
+message-furnace-ready: "&7A nearby furnace has finished smelting&d %s&7."
+
+##### German
+#message-furnace-ready: "&7Ein nahegelegener Ofen hat das Schmelzen von&d %s&7 abgeschlossen."
+
+
+
+#########################
+#####     Done!     #####
+#########################
+
+# please do not change the following line manually!
+config-version: 1

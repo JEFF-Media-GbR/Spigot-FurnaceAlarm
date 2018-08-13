@@ -1,0 +1,12 @@
+main: de.jeffclan.JeffFurnaceAlarm.JeffFurnaceAlarmPlugin
+name: FurnaceAlarm
+version: 1.0
+api-version: 1.13
+description: Sends a message to nearby players when a furnace has finished smelting
+author: mfnalex
+website: www.jeff-media.de
+prefix: FurnaceAlarm 
+#commands:
+#  furnacealarm:
+#    description: Toggle automatic furnace messages
+#    usage: /<command>
